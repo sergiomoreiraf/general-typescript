@@ -20,7 +20,7 @@ Do you already have a repo and wanna add typescript to it? Bellow is provided so
 
 So, try Javascript, Typescript and Jest today! :)
 
-## What is required
+# What is required
 
 Basically you need to have npm installed and to use a code editor.
 
@@ -30,7 +30,7 @@ For an editor, I recommend [Vs Code](https://code.visualstudio.com/), but you ca
 
 A good addition, but not required, is to global install [NPX](https://www.npmjs.com/package/npx). With it you can use any binary package installed on the project with NPM.
 
-## Steps to recreate this repo
+# Steps to recreate this repo
 
 Considering a just created and cloned git-hub repo:
 
@@ -73,10 +73,27 @@ Considering a just created and cloned git-hub repo:
    - `"build": "tsc"` to generate your js code.
    - `"watch": "tsc --watch"` to generate and watch for code changes.
 
-## How to run a .ts file
+# How to run a .ts file
 
 If you need to run just one file, type:
 
 `npx ts-node <path to file.ts>`
 
 No need to previously generate Javascript files.
+
+# How to test
+
+A simple full test can be done with
+
+`npm test`
+
+But if you are using Vs Code, then I recommend you to use the **Jest test extension**. Just open a **.spec** file and it will run all tests.
+
+```
+Name: Jest
+Id: orta.vscode-jest
+Description: Use Facebook's Jest With Pleasure.
+Version: 3.0.2
+Publisher: Orta
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+```
