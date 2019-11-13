@@ -1,0 +1,23 @@
+{
+  "name": "general-typescript",
+  "description": "Wanna try typescript? This is a minimalist repo for it!",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomoreiraf/general-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergiomoreiraf/general-typescript/issues"
+  },
+  "homepage": "https://github.com/sergiomoreiraf/general-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}
