@@ -20,7 +20,7 @@ Do you already have a repo and wanna add typescript to it? Bellow is provided so
 
 So, try Javascript, Typescript and Jest today! :)
 
-# What is required
+## What is required
 
 Basically you need to have npm installed and to use a code editor.
 
@@ -30,7 +30,7 @@ For an editor, I recommend [Vs Code](https://code.visualstudio.com/), but you ca
 
 A good addition, but not required, is to global install [NPX](https://www.npmjs.com/package/npx). With it you can use any binary package installed on the project with NPM.
 
-# Steps to create this repo
+## Steps to recreate this repo
 
 Considering a just created and cloned git-hub repo:
 
@@ -48,7 +48,7 @@ Considering a just created and cloned git-hub repo:
    - This contains **the files and dirs** Git will ignore when committing your code.
    - For a Typescript project, it has inside **_/node_modules_** and **_/dist_**. This is where the transpiled code goes
 
-1. `npm i -D @types/jest jest ts-jest typescript`
+1. `npm i -D @types/jest jest ts-jest typescript ts-node`
 
    - Npm will install these packages as a dev dependency.
 
@@ -72,3 +72,11 @@ Considering a just created and cloned git-hub repo:
    - `"test": "jest"` to init test with jest.
    - `"build": "tsc"` to generate your js code.
    - `"watch": "tsc --watch"` to generate and watch for code changes.
+
+## How to run a .ts file
+
+If you need to run just one file, type:
+
+`npx ts-node <path to file.ts>`
+
+No need to previously generate Javascript files.
